@@ -1,0 +1,17 @@
+﻿#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Machiuke < Brainfuck
+    nxt "GO!GO!GO!GO!"
+    inc "DANCE!"
+    prv "COM'ON!"
+    dec "CHU-WA!"
+    opn "PRINCE!"
+    cls "PLEASE KISS ME"
+    put "LET'S GO!"
+    get "IT'S TIME TO DANCE YA!"
+end
+
+puts Machiuke.new.fuck(ARGF.read)
